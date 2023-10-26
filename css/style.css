@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: fredoka, sans-serif;
+    font-family: 'fredoka', sans-serif;
 }
 
 body{
@@ -12,10 +12,36 @@ body{
 .container{
     text-align: center;
     max-width: 1200px;
+    margin-bottom: 30px;
 }
 
 .container h1{
     font-size: 70px;
     margin: 50px 0;
     color: #e53170;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: inline-block;
+}
+
+.info{
+    width: 33%;
+    height: 100px;
+    background-color: lightblue;
+    float: left;
+}
+
+main::after{
+    clear: both;
+    display:table;
+    content: "";
+
+}
+.card{
+    float: left;
+    width: 33%;
 }
