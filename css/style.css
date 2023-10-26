@@ -29,10 +29,12 @@ img{
 }
 
 .info{
-    width: 33%;
+    width: 200px;
     height: 100px;
-    background-color: lightblue;
+    background-color: rgb(108, 110, 110);
     float: left;
+    padding: 20px;
+    color: white;
 }
 
 main::after{
@@ -43,5 +45,10 @@ main::after{
 }
 .card{
     float: left;
-    width: 33%;
+    width: calc((100% / 3) - 10px);
+    margin-bottom: 20px;
+}
+
+.card:nth-child(2), .card:nth-child(5){
+    margin: 0 15px;
 }
