@@ -21,29 +21,29 @@ body{
     color: #e53170;
 }
 
-
 img{
     height: 100px;
     width: 100px;
     float: left;
     display: inline-block;
+    margin-right: 15px;
 }
 
 .info{
-    width: 200px;
+    width: 300px;
     height: 100px;
     background-color: rgb(108, 110, 110);
-    float: left;
+    /* float: left; */
     padding: 20px;
     color: white;
 }
 
-main::after{
+section::after{
     clear: both;
     display:table;
     content: "";
-
 }
+
 .card{
     float: left;
     width: calc((100% / 3) - 10px);
